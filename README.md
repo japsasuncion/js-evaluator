@@ -43,19 +43,12 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
 
-## Test
+# via docker (dev)
+$ docker-compose up dev
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# via docker (prod)
+$ docker-compose up prod
 ```
 
 ## Support
